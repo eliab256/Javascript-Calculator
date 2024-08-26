@@ -14,7 +14,7 @@
     background: linear-gradient(to top,rgb(16, 16, 16), rgb(0, 0, 126))
   }
 
-  .width-controller{
+  .widthController{
     width: 100%;
     height: 100%;
     margin: 0 auto;
@@ -43,7 +43,7 @@
     background-color: rgb(47, 131, 73);
   }
 
-  .buttons-container{
+  .buttonsContainer{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -52,7 +52,7 @@
 
   } 
 
-  .calculator-key{
+  .calculatorKey{
   width: 33%;
   height: auto;
   border: solid 0,2px black;
@@ -100,7 +100,7 @@
         font-size: 50px;
       }
 
-    .calculator-key{
+    .calculatorKey{
         border: solid 1px black;
         border-radius: 8px;
     }
@@ -110,7 +110,7 @@
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
 
-  .width-controller{
+  .widthController{
     width: 960px;  /*control the maximum size on desktop device*/
   }
 
@@ -118,7 +118,7 @@
     font-size: 60px;
   }
 
-  .calculator-key{
+  .calculatorKey{
     border: solid 1px black;
     border-radius: 8px;
 }
