@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html, body{
+    height: 100%;
+    width: 100%;
+   
+  }
+
+  .width-controller{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    align-content: center;
+  
+  }
+
+  .calculator{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: black 1px solid;
+    border-radius: 8px;
+    height: 70%;
+    width: 70%;
+    background-color: rgb(128, 128, 128);
+  }
+
+  .display{
+    height: 15%;
+    width: 100%;
+    border: solid black 1px;
+  
+    border-radius: 8px;
+    background-color: rgb(47, 131, 73);
+  }
+
+  .buttons-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 85%;
+
+  } 
+
+  .calculator-key{
+  width: 33%;
+  height: auto;
+  border: solid 0,2px black;
+  border-radius: 5px;
+  margin: 0 auto;
+  }
+
+  .equal{
+  width:66%;
+  height: auto;
+  border: solid 0,2px black;
+  border-radius: 5px;
+  margin: 0 auto;
+  }
+
+  button{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 40px ;
+  }
+
+  button:active{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.382);
+  }
+
+  input{
+    height: 100%;
+    width: 100%;
+    
+  }
+
+
+
+
+  /* Mobile Styles */
+@media only screen and (max-width: 400px) {
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    button{
+        font-size: 50px;
+      }
+
+    .calculator-key{
+        border: solid 1px black;
+        border-radius: 8px;
+    }
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+
+  .width-controller{
+    width: 960px;  /*control the maximum size on desktop device*/
+  }
+
+  button{
+    font-size: 60px;
+  }
+
+  .calculator-key{
+    border: solid 1px black;
+    border-radius: 8px;
+}
+
+ 
+
+}
