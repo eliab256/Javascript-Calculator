@@ -11,7 +11,7 @@
   }
 
   body{
-    background: linear-gradient(to top,rgb(16, 16, 16), rgb(0, 0, 126))
+   
   }
 
   .widthController{
@@ -35,12 +35,20 @@
   }
 
   .display{
+    display: flex;
     height: 15%;
     width: 100%;
-    border: solid black 1px;
-  
+    border: solid red 1px;
     border-radius: 8px;
     background-color: rgb(47, 131, 73);
+  }
+
+  .partialDisplay{
+    height: 40%;
+    width: 30%;
+    border: black solid 1px;
+    font-size: 15px;
+    align-content: end;
   }
 
   .buttonsContainer{
@@ -49,7 +57,6 @@
     flex-wrap: wrap;
     width: 100%;
     height: 85%;
-
   } 
 
   .calculatorKey{
@@ -83,7 +90,7 @@
   input{
     height: 100%;
     width: 100%;
-    
+    font-size: 35px ;
   }
 
 
@@ -100,9 +107,17 @@
         font-size: 50px;
       }
 
+    input{
+      font-size: 45px ;
+    }
+
     .calculatorKey{
         border: solid 1px black;
         border-radius: 8px;
+    }
+
+    .partialDisplay{
+      font-size: 20px;
     }
 
 }
@@ -117,11 +132,18 @@
   button{
     font-size: 60px;
   }
+  input{
+    font-size: 50px ;
+  }
 
   .calculatorKey{
     border: solid 1px black;
     border-radius: 8px;
-}
+  }
+
+  .partialDisplay{
+    font-size: 25px;
+  }
 
  
 
