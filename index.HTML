@@ -12,8 +12,10 @@
         <div class="widthController">
             <div class="calculator">
                 <div class="display">
-                    <input type="text" class="calculatorScreen" value="" disabled />
-                    <div class="partialDisplay"></div>
+                    <input type="text" class="calculatorScreen" id="result" value="" disabled />
+                    <div class="partialDisplay">
+                        <p id="partialResult"></p>
+                    </div>
                 </div>
                 <div class="buttonsContainer"> 
                     <div class="calculatorKey">
@@ -59,13 +61,13 @@
                         <button type="button" class="operator" value="/">&divide;</button>
                     </div>
                     <div class="calculatorKey">
-                        <button type="button" class="decimal" value=".">.</button>
+                        <button type="button" class="decimal" id="dot" value=".">.</button>
                     </div>
                     <div class="calculatorKey">
-                        <button type="button" class="all-clear" value="all-clear">AC</button>
+                        <button type="button" class="all-clear" id="allClear" value="all-clear">AC</button>
                     </div>
                     <div class="calculatorKey equal">
-                         <button type="button" class="equal-sign operator" value="=">=</button>
+                         <button type="button" class="equal-sign operator" id="equal" value="=">=</button>
                     </div>
                 </div>
             </div>

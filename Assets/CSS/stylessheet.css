@@ -10,9 +10,7 @@
    
   }
 
-  body{
-   
-  }
+
 
   .widthController{
     width: 100%;
@@ -38,7 +36,7 @@
     display: flex;
     height: 15%;
     width: 100%;
-    border: solid red 1px;
+    border: solid black 1px;
     border-radius: 8px;
     background-color: rgb(47, 131, 73);
   }
