@@ -42,11 +42,15 @@
   }
 
   .partialDisplay{
-    height: 50%;
+    height: 100%;
     width: 30%;
-    border: black solid 1px;
-    font-size: 15px;
-    align-content: end;
+    border-left: black solid 1px;
+    font-size: 12px;
+    overflow-wrap: break-word;
+  }
+
+  #partialResul{
+    font-size: 12px;
   }
 
   .buttonsContainer{
@@ -85,7 +89,7 @@
     background-color: rgba(0, 0, 0, 0.382);
   }
 
-  input{
+  input, textarea{
     height: 100%;
     width: 100%;
     font-size: 35px ;
@@ -114,8 +118,8 @@
         border-radius: 8px;
     }
 
-    .partialDisplay{
-      font-size: 20px;
+    #partialResul{
+      font-size: 15px;
     }
 
 }
@@ -139,8 +143,8 @@
     border-radius: 8px;
   }
 
-  .partialDisplay{
-    font-size: 25px;
+  #partialResul{
+    font-size: 20px;
   }
 
  
