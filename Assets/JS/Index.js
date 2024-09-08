@@ -34,9 +34,7 @@ function DotButtonClick(event){
 
 //funzione che permette di aggiungere gli operatori per fare i calcoli
 function OperatorButtonClick(event){
-    if(typeof NumberComponing === "number"){
-        CalculatorReset();
-    }
+    
     //permetto di scrivere valori negativi mettendo il - all' inizio e non consentendo agli altri operatori di essere scritti se non c'è un numero
     if(!NumberComponing && event.target.value === "-"){   
         NumberComponing = event.target.value;
@@ -79,6 +77,7 @@ function CancelButtonClick(event){
     document.querySelector("#partialResul").value = PartialNumber;
 }
 
+//resetta i valori a display
 function CalculatorReset(){
     NumberComponing = "";
     PartialNumber = "";
